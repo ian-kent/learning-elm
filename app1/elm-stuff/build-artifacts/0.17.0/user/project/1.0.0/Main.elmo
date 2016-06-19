@@ -1,0 +1,485 @@
+var _user$project$Main$dieFaces = _elm_lang$core$Array$fromList(
+	_elm_lang$core$Native_List.fromArray(
+		[
+			A2(
+			_elm_lang$svg$Svg$svg,
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_elm_lang$svg$Svg_Attributes$width('60'),
+					_elm_lang$svg$Svg_Attributes$height('60'),
+					_elm_lang$svg$Svg_Attributes$viewBox('0 0 60 60')
+				]),
+			_elm_lang$core$Native_List.fromArray(
+				[
+					A2(
+					_elm_lang$svg$Svg$rect,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$x('2'),
+							_elm_lang$svg$Svg_Attributes$y('2'),
+							_elm_lang$svg$Svg_Attributes$width('56'),
+							_elm_lang$svg$Svg_Attributes$height('56'),
+							_elm_lang$svg$Svg_Attributes$rx('3'),
+							_elm_lang$svg$Svg_Attributes$ry('3'),
+							_elm_lang$svg$Svg_Attributes$fill('none'),
+							_elm_lang$svg$Svg_Attributes$stroke('black'),
+							_elm_lang$svg$Svg_Attributes$strokeWidth('2')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('28'),
+							_elm_lang$svg$Svg_Attributes$cy('28'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[]))
+				])),
+			A2(
+			_elm_lang$svg$Svg$svg,
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_elm_lang$svg$Svg_Attributes$width('60'),
+					_elm_lang$svg$Svg_Attributes$height('60'),
+					_elm_lang$svg$Svg_Attributes$viewBox('0 0 60 60')
+				]),
+			_elm_lang$core$Native_List.fromArray(
+				[
+					A2(
+					_elm_lang$svg$Svg$rect,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$x('2'),
+							_elm_lang$svg$Svg_Attributes$y('2'),
+							_elm_lang$svg$Svg_Attributes$width('56'),
+							_elm_lang$svg$Svg_Attributes$height('56'),
+							_elm_lang$svg$Svg_Attributes$rx('3'),
+							_elm_lang$svg$Svg_Attributes$ry('3'),
+							_elm_lang$svg$Svg_Attributes$fill('none'),
+							_elm_lang$svg$Svg_Attributes$stroke('black'),
+							_elm_lang$svg$Svg_Attributes$strokeWidth('2')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('20'),
+							_elm_lang$svg$Svg_Attributes$cy('28'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('40'),
+							_elm_lang$svg$Svg_Attributes$cy('28'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[]))
+				])),
+			A2(
+			_elm_lang$svg$Svg$svg,
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_elm_lang$svg$Svg_Attributes$width('60'),
+					_elm_lang$svg$Svg_Attributes$height('60'),
+					_elm_lang$svg$Svg_Attributes$viewBox('0 0 60 60')
+				]),
+			_elm_lang$core$Native_List.fromArray(
+				[
+					A2(
+					_elm_lang$svg$Svg$rect,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$x('2'),
+							_elm_lang$svg$Svg_Attributes$y('2'),
+							_elm_lang$svg$Svg_Attributes$width('56'),
+							_elm_lang$svg$Svg_Attributes$height('56'),
+							_elm_lang$svg$Svg_Attributes$rx('3'),
+							_elm_lang$svg$Svg_Attributes$ry('3'),
+							_elm_lang$svg$Svg_Attributes$fill('none'),
+							_elm_lang$svg$Svg_Attributes$stroke('black'),
+							_elm_lang$svg$Svg_Attributes$strokeWidth('2')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('15'),
+							_elm_lang$svg$Svg_Attributes$cy('28'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('30'),
+							_elm_lang$svg$Svg_Attributes$cy('28'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('45'),
+							_elm_lang$svg$Svg_Attributes$cy('28'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[]))
+				])),
+			A2(
+			_elm_lang$svg$Svg$svg,
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_elm_lang$svg$Svg_Attributes$width('60'),
+					_elm_lang$svg$Svg_Attributes$height('60'),
+					_elm_lang$svg$Svg_Attributes$viewBox('0 0 60 60')
+				]),
+			_elm_lang$core$Native_List.fromArray(
+				[
+					A2(
+					_elm_lang$svg$Svg$rect,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$x('2'),
+							_elm_lang$svg$Svg_Attributes$y('2'),
+							_elm_lang$svg$Svg_Attributes$width('56'),
+							_elm_lang$svg$Svg_Attributes$height('56'),
+							_elm_lang$svg$Svg_Attributes$rx('3'),
+							_elm_lang$svg$Svg_Attributes$ry('3'),
+							_elm_lang$svg$Svg_Attributes$fill('none'),
+							_elm_lang$svg$Svg_Attributes$stroke('black'),
+							_elm_lang$svg$Svg_Attributes$strokeWidth('2')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('20'),
+							_elm_lang$svg$Svg_Attributes$cy('20'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('40'),
+							_elm_lang$svg$Svg_Attributes$cy('20'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('20'),
+							_elm_lang$svg$Svg_Attributes$cy('40'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('40'),
+							_elm_lang$svg$Svg_Attributes$cy('40'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[]))
+				])),
+			A2(
+			_elm_lang$svg$Svg$svg,
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_elm_lang$svg$Svg_Attributes$width('60'),
+					_elm_lang$svg$Svg_Attributes$height('60'),
+					_elm_lang$svg$Svg_Attributes$viewBox('0 0 60 60')
+				]),
+			_elm_lang$core$Native_List.fromArray(
+				[
+					A2(
+					_elm_lang$svg$Svg$rect,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$x('2'),
+							_elm_lang$svg$Svg_Attributes$y('2'),
+							_elm_lang$svg$Svg_Attributes$width('56'),
+							_elm_lang$svg$Svg_Attributes$height('56'),
+							_elm_lang$svg$Svg_Attributes$rx('3'),
+							_elm_lang$svg$Svg_Attributes$ry('3'),
+							_elm_lang$svg$Svg_Attributes$fill('none'),
+							_elm_lang$svg$Svg_Attributes$stroke('black'),
+							_elm_lang$svg$Svg_Attributes$strokeWidth('2')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('15'),
+							_elm_lang$svg$Svg_Attributes$cy('20'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('30'),
+							_elm_lang$svg$Svg_Attributes$cy('20'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('45'),
+							_elm_lang$svg$Svg_Attributes$cy('20'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('15'),
+							_elm_lang$svg$Svg_Attributes$cy('40'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('30'),
+							_elm_lang$svg$Svg_Attributes$cy('40'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[]))
+				])),
+			A2(
+			_elm_lang$svg$Svg$svg,
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_elm_lang$svg$Svg_Attributes$width('60'),
+					_elm_lang$svg$Svg_Attributes$height('60'),
+					_elm_lang$svg$Svg_Attributes$viewBox('0 0 60 60')
+				]),
+			_elm_lang$core$Native_List.fromArray(
+				[
+					A2(
+					_elm_lang$svg$Svg$rect,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$x('2'),
+							_elm_lang$svg$Svg_Attributes$y('2'),
+							_elm_lang$svg$Svg_Attributes$width('56'),
+							_elm_lang$svg$Svg_Attributes$height('56'),
+							_elm_lang$svg$Svg_Attributes$rx('3'),
+							_elm_lang$svg$Svg_Attributes$ry('3'),
+							_elm_lang$svg$Svg_Attributes$fill('none'),
+							_elm_lang$svg$Svg_Attributes$stroke('black'),
+							_elm_lang$svg$Svg_Attributes$strokeWidth('2')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('15'),
+							_elm_lang$svg$Svg_Attributes$cy('20'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('30'),
+							_elm_lang$svg$Svg_Attributes$cy('20'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('45'),
+							_elm_lang$svg$Svg_Attributes$cy('20'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('15'),
+							_elm_lang$svg$Svg_Attributes$cy('40'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('30'),
+							_elm_lang$svg$Svg_Attributes$cy('40'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[])),
+					A2(
+					_elm_lang$svg$Svg$circle,
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$svg$Svg_Attributes$cx('45'),
+							_elm_lang$svg$Svg_Attributes$cy('40'),
+							_elm_lang$svg$Svg_Attributes$r('6')
+						]),
+					_elm_lang$core$Native_List.fromArray(
+						[]))
+				]))
+		]));
+var _user$project$Main$getDieFace = function (n) {
+	var _p0 = A2(_elm_lang$core$Array$get, n - 1, _user$project$Main$dieFaces);
+	if (_p0.ctor === 'Just') {
+		return _p0._0;
+	} else {
+		return A2(
+			_elm_lang$html$Html$div,
+			_elm_lang$core$Native_List.fromArray(
+				[]),
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_elm_lang$html$Html$text('not found')
+				]));
+	}
+};
+var _user$project$Main$subscriptions = function (model) {
+	return _elm_lang$core$Platform_Sub$none;
+};
+var _user$project$Main$rollDie = A2(
+	_elm_lang$core$Random$pair,
+	A2(_elm_lang$core$Random$int, 1, 6),
+	A2(_elm_lang$core$Random$int, 1, 6));
+var _user$project$Main$Model = F2(
+	function (a, b) {
+		return {dieFace1: a, dieFace2: b};
+	});
+var _user$project$Main$init = {
+	ctor: '_Tuple2',
+	_0: A2(_user$project$Main$Model, 1, 1),
+	_1: _elm_lang$core$Platform_Cmd$none
+};
+var _user$project$Main$NewFaces = function (a) {
+	return {ctor: 'NewFaces', _0: a};
+};
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p1 = msg;
+		if (_p1.ctor === 'Roll') {
+			return {
+				ctor: '_Tuple2',
+				_0: model,
+				_1: A2(_elm_lang$core$Random$generate, _user$project$Main$NewFaces, _user$project$Main$rollDie)
+			};
+		} else {
+			return {
+				ctor: '_Tuple2',
+				_0: A2(_user$project$Main$Model, _p1._0._0, _p1._0._1),
+				_1: _elm_lang$core$Platform_Cmd$none
+			};
+		}
+	});
+var _user$project$Main$Roll = {ctor: 'Roll'};
+var _user$project$Main$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		_elm_lang$core$Native_List.fromArray(
+			[]),
+		_elm_lang$core$Native_List.fromArray(
+			[
+				A2(
+				_elm_lang$html$Html$div,
+				_elm_lang$core$Native_List.fromArray(
+					[]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						A2(
+						_elm_lang$html$Html$h1,
+						_elm_lang$core$Native_List.fromArray(
+							[]),
+						_elm_lang$core$Native_List.fromArray(
+							[
+								_elm_lang$html$Html$text(
+								_elm_lang$core$Basics$toString(model.dieFace1))
+							])),
+						_user$project$Main$getDieFace(model.dieFace1)
+					])),
+				A2(
+				_elm_lang$html$Html$div,
+				_elm_lang$core$Native_List.fromArray(
+					[]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						A2(
+						_elm_lang$html$Html$h1,
+						_elm_lang$core$Native_List.fromArray(
+							[]),
+						_elm_lang$core$Native_List.fromArray(
+							[
+								_elm_lang$html$Html$text(
+								_elm_lang$core$Basics$toString(model.dieFace2))
+							])),
+						_user$project$Main$getDieFace(model.dieFace2)
+					])),
+				A2(
+				_elm_lang$html$Html$button,
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html_Events$onClick(_user$project$Main$Roll)
+					]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html$text('Roll')
+					]))
+			]));
+};
+var _user$project$Main$main = {
+	main: _elm_lang$html$Html_App$program(
+		{init: _user$project$Main$init, view: _user$project$Main$view, update: _user$project$Main$update, subscriptions: _user$project$Main$subscriptions})
+};
