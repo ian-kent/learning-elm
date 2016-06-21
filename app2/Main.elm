@@ -24,7 +24,7 @@ type alias Model =
   , gifUrl : String
   , error : String
   , paused : Bool
-  , remain : Int
+  , remain : Int {- FIXME this feels like a hack -}
   }
 
 init : (Model, Cmd Msg)
