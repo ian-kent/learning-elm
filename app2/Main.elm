@@ -24,11 +24,12 @@ type alias Model =
   , gifUrl : String
   , error : String
   , paused : Bool
+  , remain : Int
   }
 
 init : (Model, Cmd Msg)
 init =
-  (Model "cats" "waiting.gif" "" False, getRandomGif "cats")
+  (Model "cats" "waiting.gif" "" False 5000, getRandomGif "cats")
 
 -- SUBSCRIPTIONS
 
@@ -38,7 +39,7 @@ subscriptions model =
   if model.paused then
     Sub.none
   else
-    Time.every (5 * second) Tick
+    Time.every (1 * second) Tick
 
 -- UPDATE
 
@@ -48,6 +49,7 @@ type Msg = MorePlease
          | UpdateTopic String
          | Tick Time
          | PauseResume
+         | NextImage
 
 getRandomGif : String -> Cmd Msg
 getRandomGif topic =
@@ -65,7 +67,10 @@ update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
   case msg of
     MorePlease ->
-      ({model | gifUrl = "waiting.gif", paused = True}, getRandomGif model.topic)
+      update NextImage {model | remain = 5000}
+
+    NextImage ->
+      ({model | gifUrl = "waiting.gif" }, getRandomGif model.topic)
 
     FetchSucceed newUrl ->
       ({ model | gifUrl = newUrl }, Cmd.none)
@@ -85,7 +90,10 @@ update msg model =
       ({ model | paused = not model.paused }, Cmd.none)
 
     Tick _ ->
-      update MorePlease model
+      if model.remain <= 0 then
+        update NextImage {model | remain = 5000}
+      else
+        ({model | remain = model.remain - 1000}, Cmd.none)
 
 
 -- VIEW

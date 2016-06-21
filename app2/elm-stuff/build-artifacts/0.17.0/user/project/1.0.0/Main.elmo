@@ -15,16 +15,17 @@ var _user$project$Main$decodeGifUrl = A2(
 	_elm_lang$core$Native_List.fromArray(
 		['data', 'image_url']),
 	_elm_lang$core$Json_Decode$string);
-var _user$project$Main$Model = F4(
-	function (a, b, c, d) {
-		return {topic: a, gifUrl: b, error: c, paused: d};
+var _user$project$Main$Model = F5(
+	function (a, b, c, d, e) {
+		return {topic: a, gifUrl: b, error: c, paused: d, remain: e};
 	});
+var _user$project$Main$NextImage = {ctor: 'NextImage'};
 var _user$project$Main$PauseResume = {ctor: 'PauseResume'};
 var _user$project$Main$Tick = function (a) {
 	return {ctor: 'Tick', _0: a};
 };
 var _user$project$Main$subscriptions = function (model) {
-	return model.paused ? _elm_lang$core$Platform_Sub$none : A2(_elm_lang$core$Time$every, 5 * _elm_lang$core$Time$second, _user$project$Main$Tick);
+	return model.paused ? _elm_lang$core$Platform_Sub$none : A2(_elm_lang$core$Time$every, 1 * _elm_lang$core$Time$second, _user$project$Main$Tick);
 };
 var _user$project$Main$UpdateTopic = function (a) {
 	return {ctor: 'UpdateTopic', _0: a};
@@ -45,7 +46,7 @@ var _user$project$Main$getRandomGif = function (topic) {
 };
 var _user$project$Main$init = {
 	ctor: '_Tuple2',
-	_0: A4(_user$project$Main$Model, 'cats', 'waiting.gif', '', false),
+	_0: A5(_user$project$Main$Model, 'cats', 'waiting.gif', '', false, 5000),
 	_1: _user$project$Main$getRandomGif('cats')
 };
 var _user$project$Main$MorePlease = {ctor: 'MorePlease'};
@@ -56,11 +57,19 @@ var _user$project$Main$update = F2(
 			var _p0 = msg;
 			switch (_p0.ctor) {
 				case 'MorePlease':
+					var _v1 = _user$project$Main$NextImage,
+						_v2 = _elm_lang$core$Native_Utils.update(
+						model,
+						{remain: 5000});
+					msg = _v1;
+					model = _v2;
+					continue update;
+				case 'NextImage':
 					return {
 						ctor: '_Tuple2',
 						_0: _elm_lang$core$Native_Utils.update(
 							model,
-							{gifUrl: 'waiting.gif', paused: true}),
+							{gifUrl: 'waiting.gif'}),
 						_1: _user$project$Main$getRandomGif(model.topic)
 					};
 				case 'FetchSucceed':
@@ -94,12 +103,12 @@ var _user$project$Main$update = F2(
 						_1: _elm_lang$core$Platform_Cmd$none
 					};
 				case 'UpdateTopic':
-					var _v2 = _user$project$Main$MorePlease,
-						_v3 = _elm_lang$core$Native_Utils.update(
+					var _v4 = _user$project$Main$MorePlease,
+						_v5 = _elm_lang$core$Native_Utils.update(
 						model,
 						{topic: _p0._0});
-					msg = _v2;
-					model = _v3;
+					msg = _v4;
+					model = _v5;
 					continue update;
 				case 'PauseResume':
 					return {
@@ -112,11 +121,23 @@ var _user$project$Main$update = F2(
 						_1: _elm_lang$core$Platform_Cmd$none
 					};
 				default:
-					var _v4 = _user$project$Main$MorePlease,
-						_v5 = model;
-					msg = _v4;
-					model = _v5;
-					continue update;
+					if (_elm_lang$core$Native_Utils.cmp(model.remain, 0) < 1) {
+						var _v6 = _user$project$Main$NextImage,
+							_v7 = _elm_lang$core$Native_Utils.update(
+							model,
+							{remain: 5000});
+						msg = _v6;
+						model = _v7;
+						continue update;
+					} else {
+						return {
+							ctor: '_Tuple2',
+							_0: _elm_lang$core$Native_Utils.update(
+								model,
+								{remain: model.remain - 1000}),
+							_1: _elm_lang$core$Platform_Cmd$none
+						};
+					}
 			}
 		}
 	});
