@@ -103,7 +103,7 @@ getError model =
   if String.length model.error > 0 then
     div [] [ text model.error ]
   else
-    text ""
+    div [] []
 
 view : Model -> Html Msg
 view model =

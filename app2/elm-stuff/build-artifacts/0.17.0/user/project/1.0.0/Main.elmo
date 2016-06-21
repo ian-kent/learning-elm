@@ -8,7 +8,12 @@ var _user$project$Main$getError = function (model) {
 		_elm_lang$core$Native_List.fromArray(
 			[
 				_elm_lang$html$Html$text(model.error)
-			])) : _elm_lang$html$Html$text('');
+			])) : A2(
+		_elm_lang$html$Html$div,
+		_elm_lang$core$Native_List.fromArray(
+			[]),
+		_elm_lang$core$Native_List.fromArray(
+			[]));
 };
 var _user$project$Main$decodeGifUrl = A2(
 	_elm_lang$core$Json_Decode$at,
