@@ -2,7 +2,7 @@ import Html exposing (..)
 import Html.App as Html
 import Html.Events exposing (..)
 import Html.Attributes exposing (..)
-import Components.Navbar exposing (navbar)
+import Components.Navbar exposing (navbar, NavbarData)
 
 main =
   Html.program
@@ -39,9 +39,14 @@ update msg model =
     Foo ->
       (model, Cmd.none)
 
+-- VIEW
+
+navbarConfig =
+  { site_name = "Test"
+  }
 
 view : Model -> Html Msg
 view model =
   div []
-    [ navbar
+    [ navbar navbarConfig
     ]

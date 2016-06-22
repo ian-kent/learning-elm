@@ -45,17 +45,21 @@ import Html.Attributes exposing (..)
     </div><!-- /.navbar-collapse -->
 -}
 
-navbar : Html msg
-navbar =
+type alias NavbarData = {
+  site_name : String
+}
+
+navbar : NavbarData -> Html msg
+navbar data =
   div [class "navbar navbar-default"]
     [ div [class "container-fluid"]
-      [ navbarHeader
-      , navbarCollapse
+      [ navbarHeader data
+      , navbarCollapse data
       ]
     ]
 
-navbarHeader : Html msg
-navbarHeader =
+navbarHeader : NavbarData -> Html msg
+navbarHeader data =
   div [class "navbar-header"]
     [ button
       [ type' "button"
@@ -69,11 +73,11 @@ navbarHeader =
       , span [class "icon-bar"] []
       , span [class "icon-bar"] []
       ]
-    , a [class "navbar-brand"] [ text "Foo" ]
+    , a [class "navbar-brand"] [ text data.site_name ]
     ]
 
-navbarCollapse : Html msg
-navbarCollapse =
+navbarCollapse : NavbarData -> Html msg
+navbarCollapse data =
   div [class "collapse navbar-collapse", id "bs-example-navbar-collapse-1"]
     [ ul [class "nav navbar-nav"]
       [ li [class "active"] [ a [href "#"] [text "Link", span [class "sr-only"] [text "(current)"]] ]
